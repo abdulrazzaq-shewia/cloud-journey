@@ -1,11 +1,7 @@
 ☁️ Cloud Journey
-
 Documenting my path from Computer Science graduate to Cloud Engineer, while working full-time.
-
 🎯 Goal
-
 Become job-ready for Junior Cloud Engineer / DevOps roles by building real projects on AWS and earning the AWS Certified Solutions Architect – Associate certification.
-
 Start date: November 16, 2026
 Duration: 20 weeks (~14 hours/week), finishing April 4, 2027
 Target certification: AWS Certified Solutions Architect – Associate (SAA-C03), planned for week 10 (January 2027)
@@ -24,6 +20,7 @@ Phase	Weeks	Focus	Outcome	Status
 4	Cloud Resume Challenge	S3, CloudFront, Lambda, API Gateway, DynamoDB, Terraform, GitHub Actions	⬜
 5	Containerized app with CI/CD	Docker, ECS/EKS, Terraform, GitHub Actions, CloudWatch	⬜
 📂 Repository structure
+```
 cloud-journey/
 ├── README.md
 ├── week-01/
@@ -32,9 +29,8 @@ cloud-journey/
 │   └── bandit-notes.md
 ├── week-02/
 └── ...
-
-Each week-XX folder holds my notes, scripts, and lab work for that week.
-
+```
+Each `week-XX` folder holds my notes, scripts, and lab work for that week.
 🧰 Environment
 Windows + WSL 2 (Ubuntu)
 VS Code with the WSL extension
