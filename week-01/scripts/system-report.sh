@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "========== System report =========="
+echo "User:            $(whoami)"
+echo "Date:            $(date)"
+echo "Current folder:  $(pwd)"
+echo "Processes:       $(ps aux | wc -l)"
+echo "cron service:    $(systemctl is-active cron)"
+echo "Home folder size: $(du -sh ~ | cut -f1)"
+echo "==================================="
